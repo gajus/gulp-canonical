@@ -1,6 +1,6 @@
 # Canonical
 
-Using [Canonical](https://github.com/gajus/canonical) does not require a [Gulp](http://gulpjs.com/) plugin. Canonical has a programmatic interface to access all its features. You can use it in combination with a glob package, such as [globby](https://www.npmjs.com/package/globby) to lint multiple files, e.g.
+Using [Canonical](https://github.com/gajus/canonical) does not require a [Gulp](http://gulpjs.com/) plugin. Canonical has a [program interface](https://github.com/gajus/canonical#program-interface) to access all its features. You can use it in combination with a glob package, such as [globby](https://www.npmjs.com/package/globby) to lint multiple files, e.g.
 
 ```js
 import gulp from 'gulp';
