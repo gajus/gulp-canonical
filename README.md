@@ -28,7 +28,7 @@ gulp.task('lint-javascript', () => {
 });
 ```
 
-Note that this file example is written using ES6 syntax. If you want your `gulpfile.js` to use ES6 syntax, you have to execute it using [Babel](babeljs.io) or an equivalent code-to-code compiler (ES6 to ES6), e.g.
+This example is written using ES6 syntax. If you want your `gulpfile.js` to use ES6 syntax, you have to execute it using [Babel](babeljs.io) or an equivalent code-to-code compiler (ES6 to ES6), e.g.
 
 ```sh
 babel-node ./node_modules/.bin/gulp lint-javascript
